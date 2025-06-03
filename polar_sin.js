@@ -3,7 +3,7 @@ b=1 / effect("amp")("Slider");
 d=effect("freq")("Slider");
 R=effect("resolution")("Slider");
 c=effect("height")("Slider")
-t= effect("theta range")("Slider");
+t= effect("theta range")("Slider")* Math.PI;
 P=[];
 
 for (i=0;i<R*t;i++){
